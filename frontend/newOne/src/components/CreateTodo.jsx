@@ -28,7 +28,8 @@ export function CreateTodo(){
                 method : "POST" ,
                 body : JSON.stringify({
                     title : title ,
-                    description : description
+                    description : description,
+                    completed : false 
                 }),
                 headers : {
                     "Content-Type" : "application/json"
